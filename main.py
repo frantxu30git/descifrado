@@ -32,7 +32,7 @@ def crearlistadef(lfrecor,frecgen):
     return dicfin
 def descifrado():
     texto=""
-    dir = input("introduce el directorio del archivo")
+    dir = input("introduce el directorio del archivo \n")
     with open(dir, 'r') as f:
         for linea in f:
             texto=texto+linea
