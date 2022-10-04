@@ -1,6 +1,7 @@
 import operator
 texto=""
-with open('/home/fran/lab1.txt', 'r') as f:
+dir=input("introduce el directorio del archivo")
+with open(dir, 'r') as f:
     for linea in f:
         texto=texto+linea
 print(texto)
